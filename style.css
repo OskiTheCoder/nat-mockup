@@ -1,0 +1,93 @@
+html,
+body {
+  margin-top: 10px;
+  /*background: linear-gradient(125deg, #dfe6e9, #b2bec3); */
+  /*background-color: #d3ecc1; */
+  background: linear-gradient(45deg, #b8e994, #81ecec 80%) no-repeat;
+  opacity: 0.92;
+  height: 100%;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  display: inline-block;
+  position: relative;
+}
+
+.nat {
+  margin-left: 80px;
+  top: 125px;
+  border-radius: 30px;
+  width: 375px;
+  height: 640px;
+  box-shadow: 2px 2px 50px 2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+}
+
+.nat-card-1 {
+  margin-left: 485px;
+  border-radius: 30px;
+  width: 375px;
+  height: 640px;
+  box-shadow: 2px 2px 50px 2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 400px;
+}
+
+.nat-card-2 {
+  margin-left: 890px;
+  border-radius: 30px;
+  width: 375px;
+  height: 640px;
+  box-shadow: 2px 2px 50px 2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 25px;
+}
+
+.nat-card-3 {
+  margin-left: 1295px;
+  border-radius: 30px;
+  width: 375px;
+  height: 640px;
+  box-shadow: 2px 2px 50px 2px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 300px;
+}
+
+.circle-lg-1 {
+  background-color: #2ecc71;
+  border-radius: 50%;
+  height: 1000px;
+  width: 1000px;
+  position: absolute;
+  opacity: 15%;
+  top: -450px;
+  left: -340px;
+  z-index: -10;
+}
+
+.circle-lg-2 {
+  background: linear-gradient(45deg, #2ed573, #1e90ff 80%) no-repeat;
+  border-radius: 50%;
+  height: 1000px;
+  width: 1000px;
+  position: absolute;
+  opacity: 10%;
+  top: 500px;
+  left: 650px;
+  z-index: -9;
+}
+
+.circle-lg-3 {
+  background-color: #00cec9;
+  border-radius: 50%;
+  height: 1200px;
+  width: 1200px;
+  position: absolute;
+  opacity: 13%;
+  top: -700px;
+  left: 1400px;
+  z-index: -9;
+}
